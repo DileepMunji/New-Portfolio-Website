@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    position: relative;
+}
+
+.navbar-bg {
+    background-color: #ffffff;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-width: 0px;
+    background: linear-gradient(135deg, #4329ff, #f72585);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#logo-name {
+    color: blue;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+#nav-item1 {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+#nav-item2 {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+#nav-item3 {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+#nav-item4 {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.profile-img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.banner-section-bg-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title {
+    background: linear-gradient(to right, blue, #6f42c1, #d63384);
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+    border-radius: 6px;
+    width: 220px;
+    height: 20px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.to {
+    text-align: center;
+}
+
+.banner-description {
+    color: #6c757d;
+    font-size: 30px;
+}
+
+.sub-description {
+    font-size: 45px;
+    font-family: "Roboto";
+    font-weight: 700;
+    background: linear-gradient(to right, blue, #d63384);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-container {
+    width: 100%;
+}
+
+.resume-btn {
+    background-color: blue;
+    height: 55px;
+    width: 290px;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-top: 35px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.resume-btn:hover {
+    transform: scale(1.09);
+}
+
+.projects-btn {
+    height: 55px;
+    width: 290px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Roboto";
+    font-weight: 600;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.projects-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.09);
+}
+
+.footer-section-description {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.about-me {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(to right, blue, #6f42c1, #d63384);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me-intro {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.about-me-description {
+    font-size: 15px;
+}
+
+.mern-stack {
+    font-weight: 700;
+}
+
+.icon {
+    background: linear-gradient(to right, blue, #6f42c1, #d63384);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    margin-right: 15px;
+    transition: transform 0.5s ease;
+}
+
+.icon:hover {
+    transform: scale(1.3);
+}
+
+.resume-section {
+    max-width: 900px;
+    margin: auto;
+}
+
+.resume {
+    background: linear-gradient(to right, blue, #6f42c1, #d63384);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.resume-section-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.experience {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: blue;
+    margin-top: 10px;
+}
+
+.download-resume-btn {
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    border-width: 0px;
+    height: 60px;
+
+}
+
+.experience-card {
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+    transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+.experience-short-card {
+    height: 150px;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.present {
+    font-size: 18px;
+    font-family: "Sans-Serif";
+    color: blue;
+    font-weight: 600;
+}
+
+.role {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.organization {
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.experience-card-description {
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.education {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #e83e8c;
+    margin-top: 10px;
+}
+
+.skills-icon {
+    width: 30px;
+    height: 50px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom right, blue, #6f42c1, #e83e8c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 24px;
+}
+
+.skills-title {
+    font-size: 22px;
+    font-weight: bold;
+    background: linear-gradient(to right, blue, #6f42c1, #e83e8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;
+}
+
+.skills-card {
+    height: 80px;
+    width: auto;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.projects-section {
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-name {
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.project-image {
+    height: 400px;
+    width: 300px;
+    margin: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.cta-section {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom right, blue, #6f42c1, #e83e8c);
+    color: white;
+
+}
+
+.cta-section-text-container {
+    max-width: 900px;
+}
+
+.cta-section-heading {
+    font-weight: 700;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.contact-me-button {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    height: 50px;
+    width: 160px;
+}
+
+.contact-section {
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.msg-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom right, blue, #6f42c1, #e83e8c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 24px;
+}
+
+.contact-section-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-section-title {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-section-description {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.input-el {
+    height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.submit-btn {
+    background-color: #6c75f4;
+    /* soft purple-blue */
+    color: white;
+    padding: 12px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Roboto";
+    width: 100%;
+    /* optional: full width */
+}
+
+@media (min-width : 576px) {
+    #logo-name {
+        color: blue;
+        font-size: 35px !important;
+        font-family: "Roboto";
+        font-weight: 600;
+    }
+
+    .contact-section-title {
+        font-family: "Roboto";
+        font-size: 30px !important;
+        font-weight: 600;
+    }
+
+    .contact-section-description {
+        font-size: 28px !important;
+        font-family: "Roboto";
+    }
+
+    .input-el {
+        height: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 18px;
+        width: 400px !important;
+    }
+
+    .cta-section-heading {
+        font-weight: 700;
+        font-family: "Roboto";
+        font-size: 50px !important;
+    }
+
+    .resume {
+        font-size: 45px !important;
+    }
+
+    .project-image {
+        height: 400px;
+        width: 300px;
+        margin: 0px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .about-me-section {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .about-me-card {
+        max-width: 500px !important;
+    }
+
+    .resume-btn {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .banner-title {
+        width: 380px !important;
+        font-size: 20px !important;
+        height: 40px !important;
+        margin-bottom: 38px !important;
+    }
+
+    .banner-description {
+        font-size: 40px !important;
+        margin-bottom: 48px !important;
+
+    }
+
+    .sub-description {
+        font-size: 30px !important;
+    }
+
+    .resume-btn {
+        height: 65px !important;
+        width: 220px !important;
+    }
+
+    .projects-btn {
+        height: 65px !important;
+        width: 220px !important;
+    }
+
+    .card {
+        margin-top: 35px !important;
+        width: 450px !important;
+        height: 450px !important;
+    }
+
+    .profile-img {
+        width: 80% !important;
+        height: auto !important;
+        border-radius: 20px !important;
+        z-index: 1 !important;
+    }
+
+}
+
+@media screen and (min-width : 992px) {
+    .input-el {
+        height: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 18px;
+        width: 600px !important;
+    }
+
+    .cta-section-heading {
+        font-weight: 700;
+        font-family: "Roboto";
+        font-size: 60px !important;
+    }
+
+    .project-image {
+        height: 300px;
+        width: 300px;
+        margin: 0px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .resume {
+        font-size: 45px !important;
+    }
+
+    .banner-description {
+        font-size: 40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .banner-section-bg-container {
+        width: 500px !important;
+        margin-top: 45px !important;
+        text-align: left !important;
+        align-items: flex-start !important;
+    }
+
+    .card {
+        margin-top: 15px !important;
+        width: 500px !important;
+        height: 450px !important;
+        margin-right: 45px !important;
+    }
+
+    .resume-btn {
+        margin-left: 0px !important;
+    }
+
+    .banner-description {
+        color: #6c757d !important;
+        font-size: 29px !important;
+    }
+
+    .sub-description {
+        font-size: 45px !important;
+    }
+
+    .break-line {
+        display: none !important;
+    }
+}

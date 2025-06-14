@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "5_T5GqvOkntYE8Aq5",
+            });
+        })();
+    </script>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" id="logo-name" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="nav-item1" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="nav-item2" href="#">Resume</a>
+                    <a class="nav-link" id="nav-item3" href="#">Projects</a>
+                    <a class="nav-link" id="nav-item4" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="homeSection">
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="text-center banner-section-bg-container pt-4 pb-5">
+                            <p class="banner-title text-center">DESIGN . DEVELOPMENT . SOLVING</p>
+                            <P class="banner-description">I love building creative websites <br class="break-line" /> <span class="to">to</span> <br /> <span class="sub-description">Solve Problems With Full Stack Skills</span></P>
+                            <div class="btn-container">
+                                <button class="resume-btn" id="resumeBtn">Resume</button>
+                                <button class="projects-btn" id="projectsBtn">Projects</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="d-flex justify-content-center ">
+                            <div>
+                                <div class="card ">
+                                    <img src="https://res.cloudinary.com/dly0zupcj/image/upload/v1749634985/WhatsApp_Image_2025-06-11_at_3.08.46_PM_gj0ajb.jpg" alt="Profile Image" class="profile-img" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="about-me-section bg-light">
+            <div class="about-me-card pb-5 pt-5">
+                <div class="text-center p-3 ">
+                    <h1 class="about-me">About Me</h1>
+                    <p class="about-me-intro">I am Munji Dileep, a third-year Information Technology student.</p>
+                    <p class="about-me-description">Strong passion about <span class="mern-stack">MERN STACK</span> technology and continuous learning.My goal is to stay at the forefront of technological advancements and to contribute to creating innovative solutions that have a meaningful impact.</p>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="">
+                        <a href="https://x.com/dileep84084025" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+                        <a href="https://linkedin.com/in/dileep-munji" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://github.com/DileepMunji" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light pb-5" id="resumeSection">
+        <div class="resume-section p-5">
+            <h1 class="resume">Resume</h1>
+            <div class="resume-section-container">
+                <p class="experience">Experience</p>
+                <a href="https://drive.google.com/uc?export=download&id=1m8HwSJybhhmLqmnS80XEux0ByEJbbnIx" download="Dileep_Munji_Resume.pdf">
+                    <button class="download-resume-btn">Download Resume</button>
+                </a>
+            </div>
+            <div class="experience-card shadow p-4">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="experience-short-card bg-light">
+                            <h1 class="present">2025 - Present</h1>
+                            <h3 class="role">Web Developer</h3>
+                            <p class="organization">VaultOfCodes * Remote</p>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-8">
+                        <p class="mt-3 experience-card-description">Developed and optimized responsive web pages using HTML, CSS, and JavaScript.Built real-world projects like responsive portfolio websites with modern UI.Designed interactive cards with animations and smooth hover effects for better UX.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="experience-card shadow p-4 mt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="experience-short-card bg-light">
+                            <h1 class="present">2025 - Present</h1>
+                            <h3 class="role">Web Developer</h3>
+                            <p class="organization">ApexPlanet * Remote</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="mt-3 experience-card-description">Developed and optimized responsive web pages using HTML, CSS, and JavaScript.Built real-world projects like responsive portfolio websites with modern UI.Designed interactive cards with animations and smooth hover effects for better UX.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-5">
+                <p class="education">Education</p>
+            </div>
+            <div class="experience-card shadow p-4 mt-2">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="experience-short-card bg-light">
+                            <h1 class="present">2025 - Present</h1>
+                            <h3 class="role">ANITS College</h3>
+                            <p class="organization">Information Technology <br /> CGPA : 8.9</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="mt-3 experience-card-description">Pursuing B.Tech 3rd year in Information Technology at ANITS with an 8.9 CGPA.
+                            Actively involved in college coding contests and tech events.
+                            Passionate about problem-solving and real-world project building.
+                            Driven to grow continuously in the field of software development.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="experience-card shadow p-4 mt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="experience-short-card bg-light">
+                            <h1 class="present">2021 - 2023</h1>
+                            <h3 class="role">Sri Chaithanya</h3>
+                            <p class="organization">MPC<br />Percentage : 9.76</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="mt-3 experience-card-description">Completed Intermediate in MPC (Maths, Physics, Chemistry).
+                            Achieved 9.76% at Sri Chaitanya Junior College, Visakhapatnam.
+                            Built strong foundational knowledge in analytical and logical thinking.
+                            Prepared rigorously for engineering entrance and academic excellence.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="experience-card shadow p-4 mt-5">
+                <div class="d-flex">
+                    <i class="fas fa-tools skills-icon"></i>
+                    <h3 class="skills-title mt-2">Professional <br class="d-sm-none">Skills</h3>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">Web Development</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">Problem Solving</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">Time Management</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">Flexible</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">Adaptable</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3">
+                            <h3 class="skill">Communication Skills</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mt-5">
+                    <i class="fas fa-code skills-icon"></i>
+                    <h3 class="skills-title mt-2">Languages</h3>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">HTML</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">CSS</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">JavaScript</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">C++</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3 mr-3">
+                            <h3 class="skill">Python</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="skills-card bg-light mt-3">
+                            <h3 class="skill">Java</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projectsSection">
+        <div class="bg-light pb-5">
+            <div class="projects-section p-5">
+                <h1 class="resume">Projects</h1>
+                <div class="experience-card shadow">
+                    <div class="d-flex flex-row justify-content-between p-4 p-sm-4 p-md-0">
+                        <div class="p-md-4">
+                            <h1 class="project-name mt-4">Food Munch Webpage</h1>
+                            <p class="experience-card-description">Food Munch is a fully responsive and visually appealing food delivery website built using HTML, CSS, Bootstrap. It features a sleek landing page with a banner section, smooth navigation, and multiple sections like "Why Choose Us", "Explore Menu", and "Delivery & Payment" to enhance user experience. The design emphasizes with optimized layout for different screen sizes, and clear call-to-action buttons.</p>
+                        </div>
+                        <div class="d-none d-sm-none d-md-block">
+                            <a href="https://github.com/DileepMunji/FoodMunchApp" target="_blank">
+                                <img src="https://shots.codepen.io/username/pen/dyabVJq-800.jpg?version=1697785883" class="project-image" />
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card shadow">
+                    <div class="d-flex flex-row justify-content-between p-4 p-sm-4 p-md-0">
+                        <div class="p-md-4">
+                            <h1 class="project-name mt-4">Todo-List Application</h1>
+                            <p class="experience-card-description">Todo App is a responsive task management tool developed using HTML, CSS, Bootstrap, and JavaScript. The application allows users to add, delete, and mark tasks as completed. It uses localStorage to persist data, ensuring that tasks remain available even after page reloads. This project demonstrates skills in DOM manipulation, localStorage handling.</p>
+                        </div>
+                        <div class="d-none d-sm-none d-md-block">
+                            <a href="https://github.com/DileepMunji/TodoApp" target="_blank">
+                                <img src="https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png" class="project-image" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card shadow">
+                    <div class="d-flex flex-row justify-content-between p-4 p-sm-4 p-md-0">
+                        <div class="p-md-4">
+                            <h1 class="project-name mt-4">Wikipedia-Search Application</h1>
+                            <p class="experience-card-description">Wikipedia Search Application is a dynamic and responsive web tool developed using HTML, CSS, Bootstrap, and JavaScript. It allows users to search for any topic and fetches real-time results from the Wikipedia API. The application includes a responsive layout, loading spinner, and neatly organized search results. It showcases proficiency in API handling, DOM manipulation. </p>
+                        </div>
+                        <div class="d-none d-sm-none d-md-block">
+                            <a href="https://github.com/DileepMunji/WikipediaSearchApplication" target="_blank">
+                                <img src="https://i.ytimg.com/vi/Gyg5R8Sfo1U/maxresdefault.jpg" class="project-image" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-section mt-5">
+                <div class="cta-section-text-container">
+                    <h1 class="cta-section-heading mb-4">Let's build something together</h1>
+                    <div>
+                        <button class="contact-me-button" id="contactMeBtn">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ml-xl-5" id="contactSection">
+        <div class="bg-light pb-5 m-5 contact-section">
+            <div class="contact-section-text-container p-4 ">
+                <i class="fas fa-envelope msg-icon"></i>
+                <h3 class="contact-section-title">Get in touch</h3>
+                <p class="contact-section-description">Let's work together!</p>
+                <form id="myForm">
+                    <input placeholder="Your Name" id="nameEl" class="input-el mb-4 form-control" />
+                    <input placeholder="Your Email" id="emailEl" class="input-el mb-4 form-control" />
+                    <textarea placeholder="Your Message" id="messageEl" rows="5" class="form-control input-el"></textarea>
+                    <div class="text-center mt-4">
+                        <button class="submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footerSection">
+        <div class="footer-section d-flex flex-row justify-content-center pt-3 mt-sm-5">
+            <p class="footer-section-description text-center">
+                Copyright © Dileep Munji 2025
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
